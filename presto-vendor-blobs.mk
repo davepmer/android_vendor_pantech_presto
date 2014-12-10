@@ -75,6 +75,8 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
     $(VENDOR_DEVICE_FOLDER)/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
+    $(VENDOR_DEVICE_FOLDER)/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    $(VENDOR_DEVICE_FOLDER)/lib/libcameraservice.so:system/lib/libcameraservice.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libgemini.so:system/lib/libgemini.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libmmipl.so:system/lib/libmmipl.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
